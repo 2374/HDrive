@@ -31,7 +31,6 @@ public class Drivetrain extends Component {
 		this.right1 = new Talon(right1);
 		this.right2 = new Talon(right2);
 		this.middle1 = new Talon(middle);
-		// DrivetrainPID = new PIDComponent(p,i,d);
 	}
 
 	/**
@@ -52,8 +51,5 @@ public class Drivetrain extends Component {
 
 	@Override
 	public void update() {
-		// setSpeed(0, 0);
-		// SmartDashboard.putNumber("Left Encoder Speed",encoderLeft.getRate());
-		// SmartDashboard.putNumber("Right Encoder Speed",encoderRight.getRate());
 	}
 }

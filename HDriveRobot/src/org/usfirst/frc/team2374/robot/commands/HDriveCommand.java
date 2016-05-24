@@ -28,10 +28,8 @@ public class HDriveCommand extends Command {
 
 	@Override
 	public void update() {
-		Robot.drivetrain.setSpeed(quadraticScale(-Input.getAxis(1)),
+		Robot.drivetrain.setSpeed(quadraticScale(Input.getAxis(1)),
 				quadraticScale(Input.getAxis(5)),
-				quadraticScale(Input.getAxis(0))); // Ian wanted to reverse
-		// robot direction, make
-		// sure I did this right
+				quadraticScale(Input.getAxis(0)));
 	}
 }
